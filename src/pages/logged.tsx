@@ -1,4 +1,4 @@
-const Home = () => {
+const Logged = () => {
   return (
     <h1 className="flex flex-col items-center font-bold text-xl">
       Welcome page asw cognito authentication
@@ -6,4 +6,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Logged
