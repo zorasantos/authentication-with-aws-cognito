@@ -1,8 +1,11 @@
+import { Text } from '../../atoms/Text'
+
 export const FormSignUp = () => {
   return (
     <form
       className="mt-8 space-y-6"
     >
+      <Text text="Sign Up"/>
       <div className="rounded-md shadow-sm -space-y-px">
         <input
           id="username"
