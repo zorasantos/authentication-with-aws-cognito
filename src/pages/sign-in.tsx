@@ -1,8 +1,8 @@
+import { NextPage } from "next"
+import { BoxSignIn } from "../components/organisms/BoxSignIn"
+import { BaseForm } from "../components/template/BaseForm"
 
-import { BoxSignIn } from "../organisms/BoxSignIn"
-import { BaseForm } from "../template/BaseForm"
-
-const SignIn = () => {
+const SignIn: NextPage = () => {
   return (
     <BaseForm>
       <BoxSignIn />
